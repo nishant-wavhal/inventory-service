@@ -37,7 +37,7 @@ Business Logic (Inventory Service)
 
         ↓
         
-Infra (DB / Kafka / Redis)
+Infra (DB / Redis)
 
         ↓
         
