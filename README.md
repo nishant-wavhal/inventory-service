@@ -14,6 +14,8 @@
 
 ## Complete Service flow :
 
+```python
+
 ENTRYPOINT (REST / Kafka / Scheduler)
 
         ↓
@@ -58,5 +60,6 @@ Resilience Async Hook
 IF Saga step:
     Producer publish next event OR compensation event
 
+```
 ## What is remaining :
  Implementation to get all the implemented systems together.
