@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: "inventory-service-dashboards"
+    orgId: 1
+    folder: "Inventory Service"
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/provisioning/dashboards
