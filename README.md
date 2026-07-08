@@ -1,9 +1,6 @@
-# Getting Started
+# Production-Oriented Distributed Inventory Service
 
-## Reference Documentation
-## Production-Oriented Distributed Inventory Service
-
-# Focus Areas:
+## Focus Areas:
 - Event-Driven Architecture
 - CQRS
 - Kafka Integration
