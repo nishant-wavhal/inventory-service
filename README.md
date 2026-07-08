@@ -43,6 +43,7 @@ Outcome CAPTURE
    - success/failure
    - failureType
    - compensatable flag
+
      
         ↓
      
