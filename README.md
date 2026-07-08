@@ -14,7 +14,7 @@
 
 ## Complete Service flow :
 
-ENTRYPOINT (REST / Kafka / Scheduler / Producer)
+ENTRYPOINT (REST / Kafka / Scheduler)
 
         ↓
         
@@ -43,12 +43,10 @@ Outcome CAPTURE
    - success/failure
    - failureType
    - compensatable flag
-
-     
+          
         ↓
      
 Observability END
-
 
         ↓
         
@@ -58,7 +56,7 @@ Resilience Async Hook
         ↓
         
 IF Saga step:
-   publish next event OR compensation event
+    Producer publish next event OR compensation event
 
 ## What is remaining :
  Implementation to get all the implemented systems together.
